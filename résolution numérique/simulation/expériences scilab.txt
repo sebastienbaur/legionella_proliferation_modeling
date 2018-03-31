@@ -1,0 +1,38 @@
+Simulation 1
+D = 10^(-10)
+k_1 = 5*10^(-5) ; // constante de vitesse légionnelle-nutriment
+k_2 = 2*10^(-2) ;
+k_3 = 5*10^(-5) ; // constante de vitesse légionnelle-amibe
+k_4 = 2*10^(-2) ;
+k_5 = 5*10^(-5) ; // constante de vitesse amibe-nutriment
+k_6 = 2*10^(-2) ;
+T=1000
+L=10^(-5)*M
+N=2500
+M=30
+dz = 10^(-5)
+dt = 1000/2500
+a0 = 1/2
+l0 = 1/2
+S0 = 1
+
+Remarques : 
+- M = 30 suffit pour N=2500 car développement pas assez grand
+- croissance exponentielle de L et A
+
+Simulation 2 : test de l'influence de k_3 (constante légionnelle-amibe)
+k_3 = 50*10^(-5)
+T=1000
+L=10^(-5)*M
+N=2500
+M=30
+
+
+Simulation 3 : changement de la facon de calculer u
+N = 8200;
+M = 30;
+
+T = 4000;
+L = 10^(-5)*M;
+
+k_3 = 50*10^(-5)
